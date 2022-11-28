@@ -45,7 +45,7 @@ const defaultMenu = {
 
 ⦿ Database : %totalreg User
 ⦿ Runtime : *%uptime*
-⦿#Uptime : %osuptime#
+⦿ #Uptime : %osuptime#
 
 _mainkan game untuk mendapatkan exp / money_
 `.trimStart(),
@@ -166,7 +166,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, isPrems, args, usedPr
 					text: text.replaceAll('#','```').trim(),
 					footer: packname + ' - ' + author,
 					//title: `⎔───「 ${packname} 」───⎔`,
-					buttonText: `SUB MENU 🎫`,
+					buttonText: `CLICK HERE ⎙`,
 					sections
 				}
 				await conn.sendMessage(m.chat, listMessage, {quoted: ftrol})
