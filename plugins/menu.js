@@ -45,8 +45,7 @@ const defaultMenu = {
 
 ⦿ Database : %totalreg User
 ⦿ Runtime : *%uptime*
-
-#OS Uptime : %osuptime#
+⦿#Uptime : %osuptime#
 
 _mainkan game untuk mendapatkan exp / money_
 `.trimStart(),
