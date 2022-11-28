@@ -37,20 +37,18 @@ let tagsm = {}
 const defaultMenu = {
 	before: `%name!
 
-⦿ 🧱 Limit : *%limit Limit*
-⦿ 🦸🏼‍♂️ Role : *%role*
-⦿ 🔼 Level : *%level (%exp / %maxexp)*
-⦿ 💵 Money : *%money*
-⦿ 💫 Total XP : %totalexp ✨
+⦿ Limit : *%limit Limit*
+⦿ Role : *%role*
+⦿ Level : *%level (%exp / %maxexp)*
+⦿ Money : *%money*
+⦿ Total XP : %totalexp ✨
 
-⦿ 📊 Database : %totalreg User
-⦿ 📈 Runtime : *%uptime*
+⦿ Database : %totalreg User
+⦿ Runtime : *%uptime*
 
-#OS Version : %osversion#
-#OS Arch : %osarch | %oscore Core | %osspeed#
 #OS Uptime : %osuptime#
 
-_Claim *.daily* atau mainkan game di *.funmenu* untuk mendapatkan exp / money_
+_mainkan game untuk mendapatkan exp / money_
 `.trimStart(),
 	header: '╭─「 %category 」',
 	body: '│ • %cmd %islimit %isPremium',
