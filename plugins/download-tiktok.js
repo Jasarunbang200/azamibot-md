@@ -10,7 +10,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 *Type NoWatemark*`
     conn.sendButtonVid(m.chat, res.video, result, '_© 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 𝐅𝐢𝐤𝐫𝐢𝐢_', `Thanks`, `thanks ${args[0]}`, m)
         }
-handler.help = ['tiktok'].map(v => v + ' <url>')
+handler.menudownload = ['tiktok'].map(v => v + ' <url>')
 handler.tagsdownload = ['search']
 handler.command = /^(tiktok|ttdl|tt|tiktokdl)$/i
 handler.limit = 3
